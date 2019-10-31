@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MyGameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameStart">
+
+
+    <GridLayout
+        android:id="@+id/light_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:rowCount="5"
+        android:useDefaultMargins="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.143">
+
+        <ImageButton
+            style="@style/LightButton"
+
+            android:onClick="onLightButtonClick" />
+
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+
+            android:onClick="onLightButtonClick" />
+
+        <ImageButton
+            style="@style/LightButton"
+            android:onClick="onLightButtonClick" />
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button_newgame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="New Game"
+        android:onClick="GameStart"
+        app:layout_constraintEnd_toEndOf="@+id/light_grid"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/light_grid"
+        app:layout_constraintTop_toBottomOf="@+id/light_grid" />
+
+    <Button
+        android:id="@+id/button_change_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Change Style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button_newgame"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="@+id/button_newgame"
+        app:layout_constraintTop_toBottomOf="@+id/button_newgame"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

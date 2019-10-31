@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project2_MoveThePeg</string>
+
+    <string name="title_activity_peg_game_model">PegGameModel</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="win_title">Game End</string>
+    <string name="win_message">Congratulations! Youre the best</string>
+    <string name="ok">OK</string>
+    <string name="lost_message">Try harder</string>
+    <string name="lost_title">Loser</string>
+</resources>
